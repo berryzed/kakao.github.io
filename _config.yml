@@ -23,15 +23,15 @@ gems:
   - jekyll-paginate
 
 paginate: 5
-paginate_path: '/techlog/page/:num/'
+paginate_path: '/page/:num/'
 
 collections:
   authors:
     output: true
-    permalink: /techlog/authors/:path/
+    permalink: /authors/:path/
   tags:
     output: true
-    permalink: /techlog/tags/:path/
+    permalink: /tags/:path/
 
 defaults:
   - scope:
